@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dyc_craft", "dyc_craft\dyc_craft.csproj", "{E6A4B944-AF1E-43DA-A452-0EF1B750204E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dyc_craft.Tests", "dyc_craft.Tests\dyc_craft.Tests.csproj", "{E8B25563-E216-44DE-9569-E52014D1B615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A4B944-AF1E-43DA-A452-0EF1B750204E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A4B944-AF1E-43DA-A452-0EF1B750204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A4B944-AF1E-43DA-A452-0EF1B750204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A4B944-AF1E-43DA-A452-0EF1B750204E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B25563-E216-44DE-9569-E52014D1B615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B25563-E216-44DE-9569-E52014D1B615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B25563-E216-44DE-9569-E52014D1B615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B25563-E216-44DE-9569-E52014D1B615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
