@@ -11,15 +11,15 @@
     
 <body>
         
-    <div class="main-nav-bar">
-      <a class="active" href="/Default.aspx">Home</a>
-      <a href="/About.aspx">About</a>
+    <div class="main-nav-bar" runat="server">
+      <a ID="mainNavHome" class="active" href="/Default.aspx" runat="server" OnClick="toggleMainNavActive">Home</a>
+      <a ID="mainNavAbout" href="/About.aspx" runat="server" OnClick="toggleMainNavActive">About</a>
     </div>
 
     <div id="container">
     <form runat="server">
     </form>
-                
+         
             <asp:ContentPlaceHolder id="DefaultPagePlaceholder" runat="server">
             </asp:ContentPlaceHolder>
         
@@ -27,6 +27,7 @@
             </asp:ContentPlaceHolder>
                 
     </div>
+        
+</body>
 
-    </body>
 </html>

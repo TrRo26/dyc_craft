@@ -13,6 +13,10 @@ namespace dyc_craft {
 	
 	public partial class MainLayout {
 		
+		protected System.Web.UI.HtmlControls.HtmlAnchor mainNavHome;
+		
+		protected System.Web.UI.HtmlControls.HtmlAnchor mainNavAbout;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder DefaultPagePlaceholder;
 		
 		protected System.Web.UI.WebControls.ContentPlaceHolder AboutPagePlaceholder;
