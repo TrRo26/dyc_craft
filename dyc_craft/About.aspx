@@ -1,11 +1,7 @@
-﻿<%@ Page Language="C#" Inherits="dyc_craft.About" %>
-<!DOCTYPE html>
-<html>
-<head runat="server">
-	<title>About</title>
-</head>
-<body>
-        
+﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/MainLayout.master" AutoEventWireup="true" %>
+    
+<asp:Content ContentPlaceHolderID="AboutPagePlaceholder" runat="server">
+    
     <div>
         <h1>ABOUT</h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -14,9 +10,5 @@
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>    
     </div>    
-        
-	<form id="form1" runat="server">
-	</form>
-        
-</body>
-</html>
+
+</asp:Content>

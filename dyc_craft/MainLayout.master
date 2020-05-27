@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="dyc_craft.MainLayout" %>
+
+<!DOCTYPE html>
+<html>
+    
+<head runat="server">
+	<title>MainLayout</title>
+    <link rel="stylesheet" href="Stylesheets/Main.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="Stylesheets/NavBar.css" type="text/css" media="screen" />
+</head>
+    
+<body>
+        
+    <div class="main-nav-bar">
+      <a class="active" href="/Default.aspx">Home</a>
+      <a href="/About.aspx">About</a>
+    </div>
+
+    <div id="container">
+    <form runat="server">
+    </form>
+                
+            <asp:ContentPlaceHolder id="DefaultPagePlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+        
+            <asp:ContentPlaceHolder id="AboutPagePlaceholder" runat="server">
+            </asp:ContentPlaceHolder>
+                
+    </div>
+
+    </body>
+</html>

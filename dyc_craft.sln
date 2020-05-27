@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dyc_craft", "dyc_craft\dyc_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dyc_craft.Tests", "dyc_craft.Tests\dyc_craft.Tests.csproj", "{E8B25563-E216-44DE-9569-E52014D1B615}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60EC1DB1-A5B3-4DA9-ABED-2BC13E93E1A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

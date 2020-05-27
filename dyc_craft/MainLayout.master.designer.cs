@@ -11,16 +11,10 @@
 namespace dyc_craft {
 	
 	
-	public partial class Default {
+	public partial class MainLayout {
 		
-		protected System.Web.UI.HtmlControls.HtmlForm form2;
+		protected System.Web.UI.WebControls.ContentPlaceHolder DefaultPagePlaceholder;
 		
-		protected System.Web.UI.WebControls.Button button2;
-		
-		protected System.Web.UI.WebControls.Image testQuilt;
-		
-		protected System.Web.UI.HtmlControls.HtmlForm form1;
-		
-		protected System.Web.UI.WebControls.Button button1;
+		protected System.Web.UI.WebControls.ContentPlaceHolder AboutPagePlaceholder;
 	}
 }

@@ -81,7 +81,9 @@
     <Content Include="packages.config" />
     <Content Include="About.aspx" />
     <Content Include="Content\Images\TestQuilt.jpg" />
-    <Content Include="Stylesheets\LandingPage.css" />
+    <Content Include="MainLayout.master" />
+    <Content Include="Stylesheets\Main.css" />
+    <Content Include="Stylesheets\NavBar.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -100,6 +102,12 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MainLayout.master.cs">
+      <DependentUpon>MainLayout.master</DependentUpon>
+    </Compile>
+    <Compile Include="MainLayout.master.designer.cs">
+      <DependentUpon>MainLayout.master</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
