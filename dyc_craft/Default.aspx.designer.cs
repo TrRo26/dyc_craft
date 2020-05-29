@@ -13,6 +13,16 @@ namespace dyc_craft {
 	
 	public partial class Default {
 		
+		protected System.Web.UI.HtmlControls.HtmlForm QuiltsAndQuilts;
+		
+		protected System.Web.UI.WebControls.Repeater quiltList;
+		
+		protected System.Web.UI.WebControls.TextBox QuiltName;
+		
+		protected System.Web.UI.WebControls.TextBox QuiltDescription;
+		
+		protected System.Web.UI.WebControls.TextBox QuiltImage;
+		
 		protected System.Web.UI.HtmlControls.HtmlForm form2;
 		
 		protected System.Web.UI.WebControls.Button button2;

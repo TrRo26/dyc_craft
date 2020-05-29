@@ -15,17 +15,22 @@
       <a ID="mainNavHome" class="active" href="/Default.aspx" runat="server" OnClick="toggleMainNavActive">Home</a>
       <a ID="mainNavAbout" href="/About.aspx" runat="server" OnClick="toggleMainNavActive">About</a>
     </div>
-
-    <div id="container">
-    <form runat="server">
-    </form>
-         
-            <asp:ContentPlaceHolder id="DefaultPagePlaceholder" runat="server">
-            </asp:ContentPlaceHolder>
+    
+    <div class="landing-page-title">
+        <h1>DYC CRAFT</h1>
+    </div>
         
-            <asp:ContentPlaceHolder id="AboutPagePlaceholder" runat="server">
-            </asp:ContentPlaceHolder>
-                
+    <div class="featured-image-title">Featured Image</div>
+    <div class="landing-page-primary-image-container">
+        <asp:Image class="landing-page-primary-image" ID="testQuilt" runat="server" ImageUrl="~/Content/Images/lake_trees.jpg" />
+    </div>
+        
+    <div id="container">
+        <asp:ContentPlaceHolder id="DefaultPagePlaceholder" runat="server">
+        </asp:ContentPlaceHolder>
+    
+        <asp:ContentPlaceHolder id="AboutPagePlaceholder" runat="server">
+        </asp:ContentPlaceHolder>
     </div>
         
 </body>

@@ -17,6 +17,8 @@ namespace dyc_craft {
 		
 		protected System.Web.UI.HtmlControls.HtmlAnchor mainNavAbout;
 		
+		protected System.Web.UI.WebControls.Image testQuilt;
+		
 		protected System.Web.UI.WebControls.ContentPlaceHolder DefaultPagePlaceholder;
 		
 		protected System.Web.UI.WebControls.ContentPlaceHolder AboutPagePlaceholder;

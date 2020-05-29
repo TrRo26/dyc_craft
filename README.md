@@ -14,3 +14,11 @@
 * [All Quilt properties]
 * isFeatured (boolean)
 * 
+
+## Expansion Ideas
+* Mom
+	* Stained Glass
+	* Gardening
+* Dad
+	* Kayak
+	* Built Furniture (chairs, tables, cabin)
